@@ -1,7 +1,6 @@
 <?php
 
-session_start();
-require("config.php");
+
 
 
 ?>
@@ -21,7 +20,7 @@ require("config.php");
             &bull;
             <a href="<?php echo $config_basedir; ?>">This month</a>
             &bull;
-            <a href="<?php echo $config_basedir; ?>/logout.php">Logout</a>
+            <a href="<?php echo $config_basedir; ?>logout.php">Logout</a>
             &bull;
         </div>
 
@@ -29,6 +28,5 @@ require("config.php");
             <div id="bar">
                 <?php require("bar.php"); ?>
             </div>
-        </div>
-    </body>
-</html>
+            <div id="main">
+            
